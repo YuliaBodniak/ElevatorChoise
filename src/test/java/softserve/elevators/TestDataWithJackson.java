@@ -49,7 +49,7 @@ public class TestDataWithJackson implements Serializable {
     public static TestDataWithJackson[] parseJson() throws IOException {
         Reader reader = null;
         try {
-            reader = new FileReader("C:\\Data\\ElevatorChoice\\src\\main\\resources\\testdata.json");
+            reader = new FileReader("D:\\ideaprojects\\ElevatorChoice\\src\\main\\resources\\testdata.json");
         } catch (IOException e) {
             e.printStackTrace();
         }
