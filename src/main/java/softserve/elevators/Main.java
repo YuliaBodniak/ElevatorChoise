@@ -18,9 +18,7 @@ public class Main {
         System.out.println("Enter your current floor and choose up (true) or down (false):");
         Person person = new Person(scanner.nextInt(), scanner.nextBoolean());
 
-
         elevatorChoice(elevators, person);
-
     }
 
     public static int elevatorChoice(Elevator[] elevators, Person person) {
@@ -43,9 +41,7 @@ public class Main {
                     elevatorIndex = i;
                 }
         }
-
     }
-
 
         System.out.println("Your elevator's number is " + elevators[elevatorIndex].getId());
         return elevators[elevatorIndex].getId();

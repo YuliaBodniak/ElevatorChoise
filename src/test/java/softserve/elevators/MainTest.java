@@ -46,8 +46,6 @@ public class MainTest {
         Elevator elevator15 = new Elevator(2, 2, 7);
         Elevator elevator16 = new Elevator(3, 15, 18);
         Elevator elevator17 = new Elevator(4, 6, 8);
-//        Elevator elevator18 = new Elevator(5, 20, 1);
-//        Elevator elevator19 = new Elevator(6, 19, 6);
         Elevator[] elevators5 = new Elevator[] {elevator14, elevator15, elevator16, elevator17};
         Person person5 = new Person(7, false);
         int expected5 = 2;
