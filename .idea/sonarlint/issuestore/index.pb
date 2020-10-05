@@ -16,7 +16,3 @@ g
 7src/test/java/softserve/elevators/TestDataFromJson.java,0\f\0f04e88171dab9ee876d67dad3394195c9f51fcd
 g
 7src/test/java/softserve/elevators/MainTestFromJson.java,e\6\e68a6f1e9ce7d7e82862885a1f9afda336ec3433
-j
-:src/test/java/softserve/elevators/MainTestWithJackson.java,a\7\a7693671b3d981609a206a08e2ac64ba9c2264ab
-j
-:src/test/java/softserve/elevators/TestDataWithJackson.java,2\9\291211d75870234ba8bb0cc2397c5972850bebc0
