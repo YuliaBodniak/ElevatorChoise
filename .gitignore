@@ -1,4 +1,3 @@
 .idea/
 target/
-ElevatorChoise.iml
-pom.xml
+*.iml
