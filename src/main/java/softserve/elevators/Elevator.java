@@ -41,7 +41,7 @@ public class Elevator {
         return (currentFloor < destinationFloor);
     }
 
-    public static int elevatorsInMyDirection(Elevator[] elevators, Person person){
+    public static int isThereAnyElevatorsInMyDirection(Elevator[] elevators, Person person){
         int count = 0;
         for (int i = 0; i < elevators.length; i++) {
             if (elevators[i].elevatorDirection() == person.isMovingUp()){

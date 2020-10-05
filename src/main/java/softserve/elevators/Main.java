@@ -1,7 +1,7 @@
 package softserve.elevators;
 import java.util.Scanner;
 
-import static softserve.elevators.Elevator.elevatorsInMyDirection;
+import static softserve.elevators.Elevator.isThereAnyElevatorsInMyDirection;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Main {
         int newDistance;
         int elevatorIndex = 0;
         int distance = Integer.MAX_VALUE;
-        int count = elevatorsInMyDirection(elevators, person);
+        int count = isThereAnyElevatorsInMyDirection(elevators, person);
     for (int i = 0; i < elevators.length; i++) {
         if (count==0){
             newDistance = Math.abs(elevators[i].getDestinationFloor() - person.getCurrentFloor());

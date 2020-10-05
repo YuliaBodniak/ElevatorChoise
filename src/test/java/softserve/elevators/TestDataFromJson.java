@@ -55,7 +55,7 @@ public class TestDataFromJson {
     public static TestDataFromJson[] getTestDataFromJson() {
         Reader reader = null;
         try {
-            reader = new FileReader("C:\\Data\\ElevatorChoice\\src\\main\\resources\\testdata.json");
+            reader = new FileReader("src/main/resources/testdata.json");
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
